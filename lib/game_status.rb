@@ -30,7 +30,7 @@ top_right_diagonal = [2,4,6] # diagonal from topright column
 
 
 
-if win_combination = top_row_win || middle_row || bottom_row || left_column || middle_column || right_column || left_diagonal || top_right
+if win_combination = top_row_win || middle_row || bottom_row || left_column || middle_column || right_column || left_diagonal || top_right_diagonal
   puts top_row_win
 else
   false
