@@ -17,7 +17,7 @@ end
 ]
 
 def won?(board)
-
+binding.pry 
 
 if WIN_COMBINATIONS
 return WIN_COMBINATIONS.each
