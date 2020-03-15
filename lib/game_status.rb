@@ -17,7 +17,6 @@ end
 ]
 
 def won?(board)
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
 
 top_row_win = [0,1,2]
 middle_row = [3,4,5]
