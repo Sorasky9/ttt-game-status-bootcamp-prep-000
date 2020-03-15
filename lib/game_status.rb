@@ -1,4 +1,3 @@
-binding.pry
 
 # Helper Method
 def position_taken?(board, index)
