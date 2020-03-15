@@ -20,7 +20,7 @@ end
 def won?(board)
 if WIN_COMBINATIONS.each do |index|
   #binding.pry
-return index
+puts index
 else
 return false
 
