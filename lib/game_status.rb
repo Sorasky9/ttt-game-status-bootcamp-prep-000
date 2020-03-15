@@ -16,7 +16,7 @@ end
   [2,4,6] # diagonal from topright column
 ]
 
-def won(board)
+def won?(board)
 
  for index in WIN_COMBINATIONS
 puts index
