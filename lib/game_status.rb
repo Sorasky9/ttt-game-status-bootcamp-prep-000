@@ -22,7 +22,9 @@ middle_row_win = [3,4,5]
 bottom_row_win = [6,7,8]
 left_column = [0,3,6]
 middle_column_win = [1,4,7]
-right_column_win = []
+right_column_win = [2,5,8]
+left_diagonal_win = [0,4,8]
+right_diagonal_win = [2,4,6]
 if board = WIN_COMBINATIONS
   return board
 else
