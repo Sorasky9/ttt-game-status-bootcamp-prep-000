@@ -19,7 +19,7 @@ end
 def won?(board)
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
 
-win_combination = [0,1,2]
+top_row_win = [0,1,2]
 middle_row = [3,4,5]
 bottom_row = [6,7,8]
 left_column = [0,3,6] # left column
