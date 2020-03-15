@@ -20,7 +20,7 @@ def won?(board)
 if board = WIN_COMBINATIONS
   return board
 else
-  return false
+   false
 
 end
 end
