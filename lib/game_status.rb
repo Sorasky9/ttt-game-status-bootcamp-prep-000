@@ -30,7 +30,7 @@ top_right_column = [2,4,6] # diagonal from topright column
 
 
 
-if top_row_win
+if win_combination = top
   puts top_row_win
 else
   false
