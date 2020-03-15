@@ -16,7 +16,6 @@ end
   [2,4,6] # diagonal from topright column
 ]
 
-binding.pry
 
 def won?(board)
 
