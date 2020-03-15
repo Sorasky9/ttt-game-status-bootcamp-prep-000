@@ -17,8 +17,10 @@ end
 ]
 
 def won?(board)
+
+
 if WIN_COMBINATIONS
-return WIN_COMBINATIONS
+return WIN_COMBINATIONS.each
 else
   false
 
