@@ -22,7 +22,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
 top_row_win = [0,1,2]
 
 if top_row_win
-  return top_row_win
+  puts top_row_win
 else
   false
 
