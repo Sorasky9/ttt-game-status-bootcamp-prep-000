@@ -17,7 +17,7 @@ end
 ]
 
 def won?(board)
-if WIN_COMBINATIONS.each
+if WIN_COMBINATIONS
 return WIN_COMBINATIONS
 else
   false
