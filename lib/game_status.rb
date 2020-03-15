@@ -17,21 +17,8 @@ end
 ]
 
 def won?(board)
-
-top_row_win = [0,1,2]
-middle_row = [3,4,5]
-bottom_row = [6,7,8]
-left_column = [0,3,6] # left column
-middle_column = [1,4,7], # middle column
-right_column = [2,5,8], # right column
-left_diagonal = [0,4,8], # diagonal from topleft column
-top_right_diagonal = [2,4,6] # diagonal from topright column
-
-
-
-if win_combination = top_row_win || middle_row || bottom_row || left_column || middle_column || right_column || left_diagonal || top_right_diagonal
-  puts win_combination
-
+if WIN_COMBINATIONS.each
+return WIN_COMBINATIONS
 else
   false
 
