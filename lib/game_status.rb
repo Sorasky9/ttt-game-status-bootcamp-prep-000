@@ -18,11 +18,10 @@ end
 ]
 
 def won?(board)
+WIN_COMBINATIONS.each do |index|
+  binding.pry
 
-if WIN_COMBINATIONS
-return WIN_COMBINATIONS.each
-else
-  false
 
 end
+
 end
