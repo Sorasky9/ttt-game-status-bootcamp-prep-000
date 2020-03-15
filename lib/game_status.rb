@@ -16,8 +16,9 @@ end
   [2,4,6] # diagonal from topright column
 ]
 
+binding.pry
+
 def won?(board)
-binding.pry 
 
 if WIN_COMBINATIONS
 return WIN_COMBINATIONS.each
