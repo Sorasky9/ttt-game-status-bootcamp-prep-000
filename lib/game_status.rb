@@ -19,7 +19,7 @@ end
 
 def won?(board)
 WIN_COMBINATIONS.each do |index|
-  binding.pry
+  #binding.pry
 
 
 end
