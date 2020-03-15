@@ -22,8 +22,7 @@ if WIN_COMBINATIONS.each do |index|
   #binding.pry
 return index
 else
-false
+return false
 
-end
 end
 end
