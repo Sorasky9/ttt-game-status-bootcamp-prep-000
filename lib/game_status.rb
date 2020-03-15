@@ -17,9 +17,10 @@ end
 ]
 
 def won?(board)
-
- for index in WIN_COMBINATIONS
-puts index
+if board = WIN_COMBINATIONS
+  return board
+else 
+  return false
 
 end
 end
