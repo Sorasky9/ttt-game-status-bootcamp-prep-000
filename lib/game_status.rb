@@ -23,6 +23,7 @@ if WIN_COMBINATIONS.each do |index|
 return index
 else
 false
+
 end
 
 end
