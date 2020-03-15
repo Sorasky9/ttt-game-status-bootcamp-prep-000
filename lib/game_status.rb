@@ -19,7 +19,7 @@ end
 def won?(board)
 if board = WIN_COMBINATIONS
   return board
-else 
+else
   return false
 
 end
