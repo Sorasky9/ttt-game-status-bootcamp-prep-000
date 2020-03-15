@@ -1,3 +1,5 @@
+binding.pry
+
 # Helper Method
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
@@ -15,7 +17,6 @@ end
   [0,4,8], # diagonal from topleft column
   [2,4,6] # diagonal from topright column
 ]
-
 
 def won?(board)
 
