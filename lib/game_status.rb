@@ -20,6 +20,8 @@ def won?(board)
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
 if WIN_COMBINATIONS
   return WIN_COMBINATIONS.each
+else
+  false
 
 end
 end
